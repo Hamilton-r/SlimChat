@@ -1,7 +1,7 @@
 import lyricsgenius as lg # https://github.com/johnwmillr/LyricsGenius
 
 
-file = open("/Users/rhamilton/Documents/lyrics/EMINEM/combined.txt", "w")  # File to write lyrics to
+file = open("enter_path_here.txt", "w")  # File to write lyrics to
 genius = lg.Genius('enter_access_token_here',  # Client access token from Genius Client API page
                              skip_non_songs=True, excluded_terms=["(Remix)", "(Live)"],
                              remove_section_headers=True)
